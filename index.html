@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/jpg" href="img/logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-aos-easing="ease-out-cubic" data-aos-duration="800" data-aos-delay="0">
+  <!-- Navbar -->
+  <div class="fixed">
+    <div class="px-5 mb-3">
+      <nav class="navbar navbar-expand-lg navbar-custom sticky-top" data-aos="fade-down">
+        <a id="icono" href="#">
+          <img src="img/logo.png" alt="" style="height: 50px; width: 60px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#responsive-navbar-nav"
+          aria-controls="responsive-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="responsive-navbar-nav">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-item nav-link" href="#" data-aos="fade-left" data-aos-delay="100">Inicio</a>
+            <a class="nav-item nav-link" href="#SobreMi" data-aos="fade-left" data-aos-delay="200">Sobre mí</a>
+            <a class="nav-item nav-link" href="#proyectos" data-aos="fade-left" data-aos-delay="300">Proyectos</a>
+            <a class="nav-item nav-link" href="#habilidades" data-aos="fade-left" data-aos-delay="400">Habilidades</a>
+            <a class="nav-item nav-link" href="#formacion" data-aos="fade-left" data-aos-delay="500">Formación</a>
+          </div>
+        </div>
+        <!-- Cambiar Tema -->
+        <div class="switch-container">
+          <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Sección de Perfil -->
+  <section id="perfil" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Columna izquierda: Información personal -->
+        <div class="col-12 col-md-6" data-aos="fade-up">
+          <h1 class="display-4 fw-bold" id="nombre">Álvaro Gil</h1>
+          <div class="banner d-inline-block">
+            Apasionado de <span id="dynamic-text"></span>
+          </div>
+          <p class="fs-5 mt-3">
+            Soy un <strong>desarrollador web</strong> con experiencia en crear soluciones creativas y funcionales. Mi
+            pasión por la tecnología y el diseño me impulsa a mejorar cada día.
+          </p>
+          <p class="fs-5 mt-2">
+            Tengo experiencia trabajando en proyectos que van desde pequeñas aplicaciones web hasta plataformas más
+            complejas. Disfruto enfrentándome a nuevos desafíos y aprendiendo constantemente.
+          </p>
+          <a href="#SobreMi" class="btn btn-primary mt-4 mb-4 btncv">
+            Conóceme más
+          </a>
+        </div>
+
+        <!-- Columna derecha: Foto -->
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-up"
+          data-aos-delay="1100">
+          <div class="overflow-hidden" style="width: 400px; height: auto;">
+            <img src="img/IMG_0389.jpg" alt="Foto de Álvaro Gil" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Sección de Sobre Mí -->
+  <section id="SobreMi" class="py-5 text-center">
+    <div class="container">
+      <h2 class="titulo fw-bold mb-4" data-aos="fade-up">Sobre mí</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mx-auto" data-aos="fade-right">
+
+          <p class="lead mb-3" style="font-size: 1.2rem;" data-aos="fade-up">
+            ¡Hola! Soy <span class="fw-bold">Álvaro Gil</span>, un desarrollador web de 19 años, siempre en busca de
+            nuevos desafíos y oportunidades para crecer. Me considero un eterno aprendiz en el mundo de la tecnología y
+            la programación.
+          </p>
+          <p class="lead mb-3" style="font-size: 1.2rem;" data-aos="fade-up">
+            Actualmente, estoy cursando un Grado Superior de Desarrollo de Aplicaciones Web (DAW), donde estoy
+            especializándome en
+            el desarrollo web y tecnologías de la información. Desde que comencé mi viaje en la programación, he
+            adquirido
+            habilidades en varios lenguajes y herramientas que son fundamentales en el desarrollo web moderno.
+          </p>
+        </div>
+        <div class="col-lg-6 mx-auto" data-aos="fade-left">
+          <h5 class="mt-4" data-aos="fade-up">¿Qué hago además de programar?</h5>
+          <p class="lead mb-3" style="font-size: 1.2rem;" data-aos="fade-up">
+            Cuando no estoy programando, me gusta mantenerme activo. Disfruto entrenando en el gimnasio, ya que creo que
+            es importante equilibrar el tiempo frente a la pantalla con actividades de ocio. También soy un gran
+            aficionado de la música y de los videojuegos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección de Proyectos -->
+  <section id="proyectos" class="py-5 align-items-center">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <h2 class="fw-bold titulo">Proyectos</h2>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center">
+        <!-- Tarjeta de Proyecto 1 -->
+        <div class="col-md-6 col-lg-5 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="bg-white rounded shadow-sm p-4">
+            <div class="mb-3">
+              <img src="img/portfolio.png" class="img-fluid rounded" alt="Proyecto 1">
+            </div>
+            <h5 class="fw-bold">Portfolio</h5>
+            <p class="text-muted mb-2">Diseño responsivo y navegación fluida.</p>
+            <p class="text-muted mb-3">HTML, CSS, JavaScript, Bootstrap</p>
+            <div class="d-flex flex-wrap justify-content-center">
+              <span class="badge bg-primary me-2">HTML</span>
+              <span class="badge bg-secondary me-2">CSS</span>
+              <span class="badge bg-success me-2">JavaScript</span>
+              <span class="badge bg-info">Bootstrap</span>
+            </div>
+            <div class="mt-3">
+              <a href="#" class="btn btn-outline-primary btn-sm">Ver Proyecto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección Habilidades -->
+  <section id="habilidades" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4 fw-bold titulo">Habilidades</h2>
+
+      <!-- Categoría Frontend -->
+      <div class="mb-4">
+        <h3>Frontend</h3>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up">
+            <img src="img/html.png" alt="HTML5" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="100">
+            <img src="img/css.png" alt="CSS3" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="200">
+            <img src="img/javascript.png" alt="JavaScript" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="300">
+            <img src="img/Bootstrap.png" alt="Bootstrap" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- Categoría Backend -->
+      <div class="mb-4">
+        <h3>Backend</h3>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up">
+            <img src="img/java.png" alt="Java" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="100">
+            <img src="img/php.png" alt="PHP" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="200">
+            <img src="img/sql.png" alt="SQL" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="300">
+            <img src="img/codeigniter.webp" alt="CodeIgniter" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- Categoría Herramientas -->
+      <div class="mb-4">
+        <h3>Herramientas</h3>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up">
+            <img src="img/Git.png" alt="GIT" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="100">
+            <img src="img/docker.png" alt="Docker" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="200">
+            <img src="img/linux.png" alt="Linux" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="300">
+            <img src="img/Figma.png" alt="Figma" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-icon" data-aos="fade-up" data-aos-delay="400">
+            <img src="img/vscode.png" alt="VSCode" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Formación -->
+  <section id="formacion" class="py-5">
+    <h2 class="text-center fw-bold titulo" data-aos="fade-up">Formación</h2>
+    <div class="timeline">
+      <!-- Item 1 -->
+      <div class="timeline-item" data-aos="fade-right" data-aos-duration="1000">
+        <div class="icon-container">
+          <span class="icon icon-info tituloFormacion"><i class="fa fa-book-open"></i></span>
+        </div>
+        <h5 class="my-3 tituloFormacion">Educación Secundaria Obligatoria (ESO)</h5>
+        <p class="fs-5">He adquirido conocimientos básicos en ciencias, matemáticas, lengua y lenguas extranjeras, lo
+          que me ha proporcionado una
+          sólida base educativa para mi futuro académico.</p>
+      </div>
+      <!-- Item 2 -->
+      <div class="timeline-item" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+        <div class="icon-container">
+          <span class="icon icon-secondary tituloFormacion"><i class="fa fa-laptop"></i></span>
+        </div>
+        <h5 class="my-3 tituloFormacion">Grado Medio en Sistemas Microinformáticos y Redes</h5>
+        <p class="fs-5">Me formé en la instalación, configuración y mantenimiento de sistemas operativos y redes
+          locales.
+          Aprendí a montar y reparar equipos, administrar servidores y proteger sistemas frente a amenazas,
+          adquiriendo experiencia práctica en entornos de trabajo reales.</p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="timeline-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+        <div class="icon-container">
+          <span class="icon icon-danger tituloFormacion"><i class="fa fa-code"></i></span>
+        </div>
+        <h5 class="my-3 tituloFormacion">Grado Superior en Desarrollo de Aplicaciones Web</h5>
+        <p class="fs-5">Actualmente curso,y recibo formación avanzada en desarrollo de software, incluyendo el uso de
+          frameworks modernos como CodeIgniter o Bootstrap.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-dark text-center py-4 border-top border-light" data-aos="fade-up">
+    <div class="container">
+      <h5 class="mb-3">Contacta conmigo</h5>
+      <div class="d-flex justify-content-center mb-2">
+        <a href="https://github.com/agilsansinena" class="mx-2" title="Github">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/alvaro-gil-645ab1261/" class="mx-2" title="LinkedIn">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="mailto:agilsansinena@gmail.com" class="mx-2" title="Enviar Correo">
+          <i class="fas fa-envelope fa-2x"></i>
+        </a>
+      </div>
+      <p class="mb-0">© 2024 Álvaro Gil. Todos los derechos reservados.</p>
+      <p class="mb-0">Contacto: agilsansinena@gmail.com</p>
+    </div>
+  </footer>
+  <button id="scrollToTop" title="Ir hacia arriba" data-aos="fade-up">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
